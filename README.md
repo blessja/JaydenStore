@@ -1,2 +1,2 @@
 # README
-A shopping Cart on build on ruby on rails.
+A shopping Cart build on ruby on rails.
