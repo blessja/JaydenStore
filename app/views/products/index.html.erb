@@ -7,8 +7,10 @@
     <%= render product %>
     <p>
       <%= link_to "Show this product", product %>
+      <%= link_to "Add to cart", carts_path(product_id: @product) %>
+
     </p>
   <% end %>
 </div>
 
-<%= link_to "New product", new_product_path %>
+
